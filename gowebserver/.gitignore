@@ -2,10 +2,11 @@ node_modules
 .idea
 .DS_Store
 
-# ignore all files in any directory named `secret`
-**/secret/*
+# ignore all files in any directory named `secret` and  `data`
+secret
 
-/lab5-godata/zip_code_database.csv
+data
+
 
 # except files ending in `.template` or `.md`
 !**/secret/*.template
@@ -16,6 +17,3 @@ node_modules
 
 # and the VSCode typings directory
 typings
-
-# ignore .key files
-*.key
